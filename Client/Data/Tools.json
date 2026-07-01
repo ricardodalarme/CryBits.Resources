@@ -1,0 +1,1269 @@
+{
+  "screens": [
+    {
+      "name": "Menu",
+      "children": [
+        {
+          "type": "Panel",
+          "textureNum": 14,
+          "name": "Background",
+          "x": 0,
+          "y": 0,
+          "visible": true,
+          "children": []
+        },
+        {
+          "type": "Panel",
+          "textureNum": 1,
+          "name": "Connect",
+          "x": 262,
+          "y": 390,
+          "visible": true,
+          "children": [
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 143,
+              "password": false,
+              "name": "Connect_Username",
+              "x": 325,
+              "y": 457,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 143,
+              "password": true,
+              "name": "Connect_Password",
+              "x": 325,
+              "y": 496,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "CheckBox",
+              "text": " Save username?",
+              "checked": false,
+              "name": "Connect_Save_Username",
+              "x": 325,
+              "y": 528,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 5,
+              "name": "Connect_Confirm",
+              "x": 456,
+              "y": 525,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 2,
+              "name": "Register",
+              "x": 317,
+              "y": 558,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 2,
+          "name": "Register",
+          "x": 262,
+          "y": 390,
+          "visible": false,
+          "children": [
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 143,
+              "password": false,
+              "name": "Register_Username",
+              "x": 325,
+              "y": 457,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 71,
+              "password": true,
+              "name": "Register_Password",
+              "x": 325,
+              "y": 496,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 71,
+              "password": true,
+              "name": "Register_Password2",
+              "x": 397,
+              "y": 496,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 5,
+              "name": "Register_Confirm",
+              "x": 456,
+              "y": 525,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 1,
+              "name": "Connect",
+              "x": 320,
+              "y": 560,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 3,
+          "name": "Options",
+          "x": 262,
+          "y": 409,
+          "visible": false,
+          "children": [
+            {
+              "type": "CheckBox",
+              "text": " Sounds",
+              "checked": false,
+              "name": "Sounds",
+              "x": 372,
+              "y": 485,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "CheckBox",
+              "text": " Musics",
+              "checked": false,
+              "name": "Musics",
+              "x": 372,
+              "y": 502,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 4,
+              "name": "Options_Back",
+              "x": 456,
+              "y": 543,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 4,
+          "name": "SelectCharacter",
+          "x": 262,
+          "y": 380,
+          "visible": false,
+          "children": [
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "SelectCharacter_Name",
+              "x": 400,
+              "y": 425,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 9,
+              "name": "Character_ChangeLeft",
+              "x": 351,
+              "y": 428,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 10,
+              "name": "Character_ChangeRight",
+              "x": 439,
+              "y": 428,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Picture",
+              "width": 96,
+              "height": 96,
+              "name": "SelectCharacter_Face",
+              "x": 353,
+              "y": 442,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Picture",
+              "width": 32,
+              "height": 32,
+              "name": "SelectCharacter_Sprite",
+              "x": 356,
+              "y": 503,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 6,
+              "name": "Character_Use",
+              "x": 352,
+              "y": 541,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 8,
+              "name": "Character_Delete",
+              "x": 402,
+              "y": 541,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 7,
+              "name": "Character_Create",
+              "x": 352,
+              "y": 541,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 5,
+          "name": "CreateCharacter",
+          "x": 262,
+          "y": 398,
+          "visible": false,
+          "children": [
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 140,
+              "password": false,
+              "name": "CreateCharacter_Name",
+              "x": 278,
+              "y": 451,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "CheckBox",
+              "text": " Male",
+              "checked": false,
+              "name": "GenderMale",
+              "x": 278,
+              "y": 490,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "CheckBox",
+              "text": " Female",
+              "checked": false,
+              "name": "GenderFemale",
+              "x": 360,
+              "y": 490,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 9,
+              "name": "CreateCharacter_ChangeLeft",
+              "x": 278,
+              "y": 511,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 10,
+              "name": "CreateCharacter_ChangeRight",
+              "x": 406,
+              "y": 511,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "CreateCharacter_ClassName",
+              "x": 347,
+              "y": 509,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 123,
+              "name": "CreateCharacter_ClassDescription",
+              "x": 282,
+              "y": 526,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 9,
+              "name": "CreateCharacter_Texture_ChangeLeft",
+              "x": 425,
+              "y": 515,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 10,
+              "name": "CreateCharacter_Texture_ChangeRight",
+              "x": 464,
+              "y": 515,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Picture",
+              "width": 96,
+              "height": 96,
+              "name": "CreateCharacter_Face",
+              "x": 425,
+              "y": 440,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Picture",
+              "width": 32,
+              "height": 32,
+              "name": "CreateCharacter_Sprite",
+              "x": 434,
+              "y": 501,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 11,
+              "name": "CreateCharacter",
+              "x": 424,
+              "y": 541,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 12,
+              "name": "CreateCharacter_Back",
+              "x": 475,
+              "y": 541,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "textureNum": 3,
+          "name": "Options",
+          "x": 768,
+          "y": 578,
+          "visible": true,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Game",
+      "children": [
+        {
+          "type": "Panel",
+          "textureNum": 10,
+          "name": "Bars",
+          "x": 8,
+          "y": 8,
+          "visible": true,
+          "children": [
+            {
+              "type": "ProgressBar",
+              "sourceY": 0,
+              "width": 152,
+              "height": 17,
+              "name": "Bars_HP_Bar",
+              "x": 14,
+              "y": 14,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "HP: 0/0",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Bars_HP_Value",
+              "x": 88,
+              "y": 15,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "ProgressBar",
+              "sourceY": 0,
+              "width": 152,
+              "height": 17,
+              "name": "Bars_MP_Bar",
+              "x": 14,
+              "y": 32,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "MP: 0/0",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Bars_MP_Value",
+              "x": 88,
+              "y": 33,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "ProgressBar",
+              "sourceY": 0,
+              "width": 152,
+              "height": 17,
+              "name": "Bars_Exp_Bar",
+              "x": 14,
+              "y": 50,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "EXP: 0/0",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Bars_Exp_Value",
+              "x": 88,
+              "y": 51,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 9,
+          "name": "Hotbar",
+          "x": 417,
+          "y": 8,
+          "visible": true,
+          "children": [
+            {
+              "type": "SlotGrid",
+              "columns": 10,
+              "slotSize": 32,
+              "padding": 2,
+              "rows": 1,
+              "name": "Hotbar_Grid",
+              "x": 420,
+              "y": 10,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 8,
+          "name": "Chat",
+          "x": 10,
+          "y": 457,
+          "visible": true,
+          "children": [
+            {
+              "type": "Button",
+              "textureNum": 14,
+              "name": "Chat_Up",
+              "x": 334,
+              "y": 458,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 15,
+              "name": "Chat_Down",
+              "x": 334,
+              "y": 562,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 330,
+              "name": "ChatMessages",
+              "x": 15,
+              "y": 462,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 340,
+              "password": false,
+              "name": "Chat",
+              "x": 12,
+              "y": 581,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 11,
+          "name": "Menu_Character",
+          "x": 596,
+          "y": 270,
+          "visible": false,
+          "children": [
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Character_Name",
+              "x": 614,
+              "y": 322,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Character_Level",
+              "x": 614,
+              "y": 349,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Character_Strength",
+              "x": 628,
+              "y": 416,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Character_Resistance",
+              "x": 628,
+              "y": 432,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Character_Intelligence",
+              "x": 628,
+              "y": 448,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Character_Agility",
+              "x": 628,
+              "y": 464,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Character_Vitality",
+              "x": 628,
+              "y": 480,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Character_Points",
+              "x": 610,
+              "y": 498,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "SlotGrid",
+              "columns": 5,
+              "slotSize": 32,
+              "padding": 3,
+              "rows": 1,
+              "name": "Equipment_Grid",
+              "x": 604,
+              "y": 518,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Picture",
+              "width": 96,
+              "height": 96,
+              "name": "Character_Face",
+              "x": 678,
+              "y": 307,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 22,
+              "name": "Attributes_Strength",
+              "x": 612,
+              "y": 418,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 22,
+              "name": "Attributes_Resistance",
+              "x": 612,
+              "y": 434,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 22,
+              "name": "Attributes_Intelligence",
+              "x": 612,
+              "y": 450,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 22,
+              "name": "Attributes_Agility",
+              "x": 612,
+              "y": 466,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 22,
+              "name": "Attributes_Vitality",
+              "x": 612,
+              "y": 482,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 12,
+          "name": "Menu_Inventory",
+          "x": 596,
+          "y": 310,
+          "visible": false,
+          "children": [
+            {
+              "type": "SlotGrid",
+              "columns": 5,
+              "slotSize": 32,
+              "padding": 4,
+              "rows": 6,
+              "name": "Inventory_Grid",
+              "x": 603,
+              "y": 340,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 15,
+          "name": "Menu_Options",
+          "x": 596,
+          "y": 387,
+          "visible": false,
+          "children": [
+            {
+              "type": "CheckBox",
+              "text": " Sounds",
+              "checked": false,
+              "name": "Options_Sounds",
+              "x": 612,
+              "y": 427,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "CheckBox",
+              "text": " Music",
+              "checked": false,
+              "name": "Options_Musics",
+              "x": 612,
+              "y": 445,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "CheckBox",
+              "text": " Chat preview",
+              "checked": false,
+              "name": "Options_Chat",
+              "x": 612,
+              "y": 463,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "CheckBox",
+              "text": " Show FPS",
+              "checked": false,
+              "name": "Options_Metrics",
+              "x": 612,
+              "y": 481,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "CheckBox",
+              "text": " Party invitations",
+              "checked": false,
+              "name": "Options_Party",
+              "x": 612,
+              "y": 515,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "CheckBox",
+              "text": " Trade invitations",
+              "checked": false,
+              "name": "Options_Trade",
+              "x": 612,
+              "y": 533,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 21,
+          "name": "Shop",
+          "x": 300,
+          "y": 200,
+          "visible": false,
+          "children": [
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Shop_Name",
+              "x": 310,
+              "y": 210,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Shop_Currency",
+              "x": 310,
+              "y": 230,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "SlotGrid",
+              "columns": 4,
+              "slotSize": 32,
+              "padding": 2,
+              "rows": 4,
+              "name": "Shop_Grid",
+              "x": 310,
+              "y": 250,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 3,
+              "name": "Shop_Close",
+              "x": 580,
+              "y": 205,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 19,
+          "name": "Trade",
+          "x": 300,
+          "y": 200,
+          "visible": false,
+          "children": [
+            {
+              "type": "Button",
+              "textureNum": 3,
+              "name": "Trade_Close",
+              "x": 580,
+              "y": 205,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 5,
+              "name": "Trade_Offer_Confirm",
+              "x": 350,
+              "y": 430,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 6,
+              "name": "Trade_Offer_Accept",
+              "x": 350,
+              "y": 430,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 8,
+              "name": "Trade_Offer_Decline",
+              "x": 420,
+              "y": 430,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "SlotGrid",
+              "columns": 4,
+              "slotSize": 32,
+              "padding": 2,
+              "rows": 5,
+              "name": "Trade_Grid_Own",
+              "x": 310,
+              "y": 220,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "SlotGrid",
+              "columns": 4,
+              "slotSize": 32,
+              "padding": 2,
+              "rows": 5,
+              "name": "Trade_Grid_Their",
+              "x": 470,
+              "y": 220,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Panel",
+              "textureNum": 0,
+              "name": "Trade_Offer_Disable",
+              "x": 300,
+              "y": 200,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 0,
+          "name": "Trade_Invitation",
+          "x": 300,
+          "y": 250,
+          "visible": false,
+          "children": [
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Trade_Invitation_Text",
+              "x": 310,
+              "y": 260,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 6,
+              "name": "Trade_Yes",
+              "x": 340,
+              "y": 290,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 8,
+              "name": "Trade_No",
+              "x": 380,
+              "y": 290,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 0,
+          "name": "Trade_Amount",
+          "x": 350,
+          "y": 280,
+          "visible": false,
+          "children": [
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 60,
+              "password": false,
+              "name": "Trade_Amount",
+              "x": 360,
+              "y": 300,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 5,
+              "name": "Trade_Amount_Confirm",
+              "x": 370,
+              "y": 330,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 4,
+              "name": "Trade_Amount_Cancel",
+              "x": 420,
+              "y": 330,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 0,
+          "name": "Party_Invitation",
+          "x": 300,
+          "y": 250,
+          "visible": false,
+          "children": [
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Party_Invitation_Text",
+              "x": 310,
+              "y": 260,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 6,
+              "name": "Party_Yes",
+              "x": 340,
+              "y": 290,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 8,
+              "name": "Party_No",
+              "x": 380,
+              "y": 290,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 0,
+          "name": "Shop_Sell",
+          "x": 350,
+          "y": 250,
+          "visible": false,
+          "children": [
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 80,
+              "password": false,
+              "name": "Shop_Sell_Amount",
+              "x": 360,
+              "y": 280,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 5,
+              "name": "Shop_Sell_Confirm",
+              "x": 370,
+              "y": 310,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 4,
+              "name": "Shop_Sell_Cancel",
+              "x": 420,
+              "y": 310,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 0,
+          "name": "Drop",
+          "x": 350,
+          "y": 250,
+          "visible": false,
+          "children": [
+            {
+              "type": "TextBox",
+              "maxCharacters": 0,
+              "width": 80,
+              "password": false,
+              "name": "Drop_Amount",
+              "x": 360,
+              "y": 280,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 5,
+              "name": "Drop_Confirm",
+              "x": 370,
+              "y": 310,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 4,
+              "name": "Drop_Cancel",
+              "x": 420,
+              "y": 310,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 0,
+          "name": "Information",
+          "x": 300,
+          "y": 200,
+          "visible": false,
+          "children": [
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Information_Title",
+              "x": 310,
+              "y": 210,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Information_Description",
+              "x": 310,
+              "y": 230,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Label",
+              "text": "",
+              "color": 16777215,
+              "alignment": "Left",
+              "maxWidth": 0,
+              "name": "Information_AdditionalContext",
+              "x": 310,
+              "y": 280,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Picture",
+              "width": 32,
+              "height": 32,
+              "name": "Information_Item",
+              "x": 315,
+              "y": 300,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Panel",
+          "textureNum": 7,
+          "name": "MenusPanel",
+          "x": 614,
+          "y": 577,
+          "visible": true,
+          "children": [
+            {
+              "type": "Button",
+              "textureNum": 16,
+              "name": "Menu_Character",
+              "x": 622,
+              "y": 564,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 17,
+              "name": "Menu_Inventory",
+              "x": 657,
+              "y": 564,
+              "visible": true,
+              "children": []
+            },
+            {
+              "type": "Button",
+              "textureNum": 21,
+              "name": "Menu_Options",
+              "x": 727,
+              "y": 564,
+              "visible": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "Picture",
+          "width": 32,
+          "height": 32,
+          "name": "DraggableSlot",
+          "x": 0,
+          "y": 0,
+          "visible": true,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

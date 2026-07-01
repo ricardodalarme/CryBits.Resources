@@ -1,0 +1,23 @@
+{
+    "InheritFrom": "paragraph_base_style.json",
+    "Default": {
+        "Icon": {
+            "TextureId": "Textures/CheckBox.png",
+            "SourceRect": {"X": 0, "Y": 0, "Width": 14, "Height": 14},
+            "TextureScale": 1
+        },
+        "FontSize": 10,
+        "TextFillColor": {"R": 255, "G": 255, "B": 255, "A": 255},
+        "Padding": {"Left": 0, "Right": 0, "Top": 0, "Bottom": 0}
+    },
+    "Checked": {
+        "Icon": {
+            "TextureId": "Textures/CheckBox.png",
+            "SourceRect": {"X": 14, "Y": 0, "Width": 14, "Height": 14},
+            "TextureScale": 1
+        }
+    },
+    "Disabled": {
+        "EffectIdentifier": "disabled"
+    }
+}

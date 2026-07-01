@@ -1,0 +1,22 @@
+{
+    "ThemeIdentifier": "CryBits Menu UI",
+    "DefaultTexture": "Textures/TextBox.png",
+    "TextScale": 1,
+    "TextureScale": 1,
+    "CursorScale": 1,
+    "TimeToLockInteractiveState": 0.1,
+    "RowSpaceHeight": 14,
+    "LoadDefaultStylesheets": {
+        "Panels": "Styles/panel.json",
+        "Paragraphs": "Styles/paragraph.json",
+        "Titles": "Styles/title.json",
+        "Labels": "Styles/label.json",
+        "Buttons": "Styles/button.json",
+        "CheckBoxes": "Styles/checkbox.json",
+        "RadioButtons": "Styles/radio_button.json",
+        "TextInput": "Styles/text_input.json",
+        "VerticalScrollbars": "Styles/scrollbar_vertical.json",
+        "VerticalScrollbarsHandle": "Styles/scrollbar_vertical_handle.json",
+        "MessageBoxBackdrop": "Styles/message_box_backdrop.json"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "saveUsername": true,
+  "username": "123",
+  "sounds": false,
+  "musics": false,
+  "chat": false,
+  "showMetrics": true,
+  "party": true,
+  "trade": false,
+  "preMapGrid": true,
+  "preMapView": true,
+  "preMapAudio": false
+}
